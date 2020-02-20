@@ -1,3 +1,22 @@
 h1 {
     color: red;
 }
+
+h1+p {
+    font-size: 200%;
+}
+
+p,
+li {
+    color: green;
+}
+
+li.special,
+span.special {
+    color: orange;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
